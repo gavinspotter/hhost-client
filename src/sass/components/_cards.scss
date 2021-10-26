@@ -1,0 +1,291 @@
+.dictionary--name {
+  position: absolute;
+  top: 25rem;
+  left: 30rem;
+}
+
+.user--username {
+  position: absolute;
+  top: 20rem;
+  left: 30rem;
+}
+
+.definitions {
+  position: absolute;
+  top: 15rem;
+  left: 35rem;
+}
+
+.secretWord {
+  position: absolute;
+  top: 10rem;
+  left: 35rem;
+}
+
+.secretWordDefinitions {
+  position: absolute;
+  top: 10rem;
+  left: 35rem;
+}
+
+.star {
+  &--list {
+    position: absolute;
+    top: 26%;
+    left: 29%;
+  }
+}
+
+.splash {
+  &--list {
+    position: absolute;
+    top: 10rem;
+    left: 35rem;
+  }
+}
+
+.dictionarys {
+  &--list {
+    position: absolute;
+    top: 10rem;
+    left: 35rem;
+  }
+}
+
+.word {
+  &--list {
+    position: absolute;
+    top: 10rem;
+    left: 35rem;
+  }
+}
+
+.splashes {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  width: 75%;
+  color: black;
+
+  &--input {
+    position: absolute;
+    top: 34%;
+    left: 60%;
+
+    &-input {
+      position: absolute;
+
+      top: 10%;
+      left: 30%;
+      border: none;
+      background-color: rgb(233, 231, 231);
+      border-radius: 0.5rem;
+      width: 34%;
+      height: 20%;
+      text-size-adjust: 4rem;
+    }
+  }
+}
+
+.starSearchSplashes {
+  position: absolute;
+  top: 10rem;
+  left: 0rem;
+  min-width: 40rem;
+  color: black;
+}
+
+.dictionaryFeed {
+  position: absolute;
+  top: 59%;
+  left: 30%;
+  color: $color-black;
+  &-origin {
+    font-weight: bold;
+  }
+
+  &-programButton {
+    position: absolute;
+    top: 49%;
+    left: 65%;
+    color: white;
+    border: none;
+    background-color: blue;
+    padding: 0.5rem;
+    border-radius: 25rem;
+  }
+
+  &-definitionAndOrigin {
+    max-width: 49rem;
+  }
+
+  &-wordInput {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    &-label {
+      position: absolute;
+      top: 4rem;
+      left: 30%;
+      color: $color-black;
+    }
+  }
+
+  &-definitionInput {
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    height: 11%;
+    width: 37%;
+  }
+
+  &-etymologyInput {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    height: 5%;
+    width: 37%;
+  }
+
+  &-secretButton {
+    position: absolute;
+    top: 9%;
+    left: 64%;
+  }
+
+  &-notSecretButton {
+    position: absolute;
+    top: 9%;
+    left: 68%;
+  }
+
+  &-definitionLabel {
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    color: $color-black;
+  }
+
+  &-etymology {
+    position: absolute;
+    top: 36%;
+    left: 30%;
+    color: $color-black;
+  }
+
+  &-secretWordInput {
+    position: absolute;
+    top: 10rem;
+    left: 44%;
+  }
+
+  &-secretWordDefinitionInput {
+    position: absolute;
+    top: 16rem;
+    left: 38rem;
+    height: 8rem;
+    width: 48rem;
+  }
+
+  &-secretWordWordLabel {
+    position: absolute;
+    top: 7rem;
+    left: 38rem;
+    color: $color-black;
+  }
+
+  &-secretWordDefinitionLabel {
+    position: absolute;
+    top: 13.5rem;
+    left: 38rem;
+    color: $color-black;
+  }
+}
+
+.createDictionary {
+  position: absolute;
+  top: 13.5rem;
+  left: 43rem;
+  color: $color-black;
+}
+
+.tildaWord {
+  display: inline-block;
+  position: inherit;
+  z-index: 2;
+  width: fit-content;
+  block-size: fit-content;
+
+  &-relative {
+    display: inline-block;
+    position: relative;
+    top: -6.5rem;
+  }
+
+  &-inside {
+    display: inline-block;
+    position: absolute;
+    background-color: lightgray;
+    top: -1rem;
+    padding: 0.4rem;
+    min-width: 13rem;
+  }
+}
+
+.stripe {
+  &-setup {
+    position: absolute;
+    top: 33%;
+    left: 28%;
+    width: 44%;
+  }
+}
+
+.ss {
+  &-container {
+    position: absolute;
+    left: 25%;
+    width: 75%;
+    color: $color-black;
+    font-size: 3%;
+    height: 100%;
+    &-SP {
+      position: absolute;
+      top: 15%;
+      left: 5%;
+    }
+    &-SAP {
+      position: absolute;
+      top: 15%;
+      left: 15%;
+    }
+    &-PUS {
+      position: absolute;
+      top: 15%;
+      left: 25%;
+    }
+  }
+
+  &-SSFeed {
+    color: $color-black;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+
+  &-sap {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+}
+
+.posts {
+  border-top: rgb(224, 221, 221) solid 0.1rem;
+  width: 66.6%;
+
+  &--borderSet {
+    position: relative;
+    left: 7.5%;
+  }
+}

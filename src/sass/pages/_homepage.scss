@@ -1,0 +1,170 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 8rem;
+  z-index: -1;
+
+  &--select {
+    display: none;
+  }
+
+  &--search {
+    &-star {
+      position: absolute;
+      top: 6%;
+      left: 29%;
+    }
+
+    &-splash {
+      position: absolute;
+      top: 6%;
+      left: 32%;
+    }
+
+    &-dictionary {
+      position: absolute;
+      top: 6%;
+      left: 36%;
+    }
+
+    &-word {
+      position: absolute;
+      top: 6%;
+      left: 42%;
+    }
+
+    &-definition {
+      position: absolute;
+      top: 6%;
+      left: 46%;
+    }
+
+    &-secretword {
+      position: absolute;
+      top: 6%;
+      left: 52%;
+    }
+
+    &-secretworddefinition {
+      position: absolute;
+      top: 3rem;
+      left: 69rem;
+    }
+  }
+
+  &--header {
+    color: $color-white;
+    font-size: 5rem;
+    display: inline-block;
+    position: absolute;
+    top: 16.5rem;
+    left: 33rem;
+  }
+
+  &--toolbar {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 102, 255);
+    height: 5rem;
+  }
+
+  &--note {
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    top: 5rem;
+    display: inline-block;
+    color: $color-white;
+    text-align: center;
+    font-size: 2rem;
+    background-color: $color-grey-dark;
+  }
+
+  &--logo {
+    font-size: 2rem;
+    position: absolute;
+    color: $color-white;
+    left: 2%;
+    top: 25%;
+    background: none;
+    border: none;
+  }
+
+  &--login {
+    transform-origin: right;
+    font-size: 2rem;
+    position: absolute;
+    color: $color-white;
+    top: 25%;
+    right: 7%;
+    background: none;
+    border: none;
+  }
+
+  &--signup {
+    transform-origin: right;
+    font-size: 2rem;
+    position: absolute;
+    color: $color-white;
+    top: 25%;
+    right: 1%;
+    background: none;
+    border: none;
+  }
+
+  &--loginmode {
+    position: absolute;
+    background-color: $color-white;
+    height: 20%;
+    width: 30%;
+    top: 35%;
+    left: 25%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  &--signupmode {
+    position: absolute;
+    background-color: $color-white;
+    height: 20%;
+    width: 30%;
+    top: 35%;
+    left: 25%;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1065px) {
+  .home {
+    &--logo {
+      display: none;
+    }
+
+    &--login {
+      display: none;
+    }
+
+    &--signup {
+      display: none;
+    }
+    &--select {
+      display: inline-block;
+      z-index: 1;
+      font-size: 2rem;
+      position: absolute;
+      color: $color-white;
+      left: 2%;
+      top: 25%;
+      background: none;
+      border: none;
+    }
+
+    &--mediaLogin {
+    }
+
+    &--mediaSignup {
+    }
+  }
+}

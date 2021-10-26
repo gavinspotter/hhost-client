@@ -1,0 +1,46 @@
+.bttn {
+  &-homepage {
+    color: white;
+    background-color: blue;
+    border-radius: 25rem;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: none;
+  }
+
+  &-post {
+    color: white;
+    background-color: blue;
+    border-radius: 25rem;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: none;
+  }
+  &-search {
+    color: white;
+    background-color: blue;
+    border-radius: 25rem;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: none;
+  }
+  &-logout {
+    color: white;
+    background-color: blue;
+    border-radius: 25rem;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: none;
+  }
+
+  &-update {
+    color: white;
+    background-color: blue;
+    border-radius: 25rem;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: none;
+    text-align: center;
+    width: fit-content;
+  }
+}
