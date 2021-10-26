@@ -22,7 +22,7 @@ const Homepage = () => {
 
     const [isSignupMode, setIsSignupMode] = useState(false)
 
-    const [isLoginMode, setIsLoginMode] = useState(false)
+    const [isLoginMode, setIsLoginMode] = useState(true)
 
 
 
@@ -86,14 +86,18 @@ const Homepage = () => {
         }
     }
 
-    const [option,setOption] = useState()
+    const [option,setOption] = useState("signup")
 
     const loginSignupSwitch = (event) => {
-        setOption(event.target.value)
+        
         if(option === "login"){
-            loginHandler()
+            setOption(event.target.value)
+            setIsLoginMode(true)
+            setIsSignupMode(false)
         }else if(option==="signup"){
-            signupHandler()
+            setOption(event.target.value)
+            setIsLoginMode(false)
+            setIsSignupMode(true)
         }
 
     }
@@ -107,7 +111,7 @@ const Homepage = () => {
                 <button onClick={homeHandler} className="home--logo"> dictionary</button>
                 <button onClick={loginHandler} className="home--login"> login</button>
                 <button onClick={signupHandler} className="home--signup"> signup</button>
-                <select onChange={loginSignupSwitch} className="home--select"  >
+                <select value={option} onChange={loginSignupSwitch} className="home--select"  >
                 
                 <option value="signup" >login</option>
                 <option value="login">signup</option>
